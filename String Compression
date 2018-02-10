@@ -1,0 +1,23 @@
+import sys
+
+def str_compress(s):
+    l = []
+    for ch in s:
+        if ch in l:
+            pass
+        else:
+            l.append(ch)
+            l.append(s.count(ch))
+    if len(l)>len(s):
+         print(s)
+    elif len(s) <= 1:
+         print(s)
+    else:
+        m = [str(i) for i in l]
+        print(''.join(m))
+
+
+if __name__ == '__main__':
+    y = str(input())
+    str_compress(y)
+    
