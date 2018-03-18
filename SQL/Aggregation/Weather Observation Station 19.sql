@@ -1,0 +1,6 @@
+--     Author: Ravi Kiran Mandha
+--     Github: github.com/CuriousMind007
+-- HackerRank: hackerrank.com/CuriousMind049
+
+
+SELECT ROUND(SQRT(POWER((MAX(LAT_N)-MIN(LAT_N)),2) + POWER((MAX(LONG_W)-MIN(LONG_W)),2)),4) FROM STATION;
